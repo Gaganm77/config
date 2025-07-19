@@ -1,0 +1,30 @@
+[1mdiff --git a/licensingservice-dev.properties b/licensingservice-dev.properties[m
+[1mdeleted file mode 100644[m
+[1mindex 147e429..0000000[m
+[1m--- a/licensingservice-dev.properties[m
+[1m+++ /dev/null[m
+[36m@@ -1,4 +0,0 @@[m
+[31m-example.property=I AM DEV[m
+[31m-spring.datasource.url=jdbc:postgresql://localhost:5432/ostock_dev[m
+[31m-spring.datasource.username=postgres[m
+[31m-spring.datasource.password=postgres[m
+\ No newline at end of file[m
+[1mdiff --git a/licensingservice.properties b/licensingservice.properties[m
+[1mdeleted file mode 100644[m
+[1mindex 63dff65..0000000[m
+[1m--- a/licensingservice.properties[m
+[1m+++ /dev/null[m
+[36m@@ -1,12 +0,0 @@[m
+[31m-example.property=I AM THE DEFAULT[m
+[31m-spring.jpa.hibernate.ddl-auto=none[m
+[31m-spring.jpa.database=POSTGRESQL[m
+[31m-spring.datasource.platform=postgres[m
+[31m-spring.jpa.show-sql=true[m
+[31m-spring.jpa.hibernate.naming-strategy=org.hibernate.cfg.ImprovedNamingStrategy[m
+[31m-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect[m
+[31m-spring.database.driverClassName=org.postgresql.Driver[m
+[31m-spring.datasource.testWhileIdle=true[m
+[31m-spring.datasource.validationQuery=SELECT 1[m
+[31m-management.endpoints.web.exposure.include=*[m
+[31m-management.endpoints.enabled-by-default=true[m
+\ No newline at end of file[m
